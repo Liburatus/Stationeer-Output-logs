@@ -1,0 +1,470 @@
+Mono path[0] = 'D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/Stationeers/Mono/etc'
+PlayerConnection initialized from D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55498
+Multi-casting "[IP] 10.114.1.133 [Port] 55498 [Flags] 2 [Guid] 1910283382 [EditorId] 442490593 [Version] 1048832 [Id] WindowsPlayer(KynnyBunz) [Debug] 0 [PackageName] WindowsPlayer" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55498]
+PlayerConnection already initialized - listening to [0.0.0.0:55498]
+Initialize engine version: 2018.3.7f1 (9e14d22a41bb)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   26.21.14.3136
+Begin MonoManager ReloadAssembly
+- Completed reload, in  1.496 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.923734 ms
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - Pass 'META' has no vertex shader
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - Pass 'META' has no vertex shader
+WARNING: Shader Unsupported: 'Standard' - Pass 'META' has no vertex shader
+WARNING: Shader Unsupported: 'Standard' - Pass 'META' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/AtmosphericScattering_Deferred' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/WorldspaceOverlayTerrain' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/SurfaceShader_VC' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/TerrainLODShader' - Pass 'Meta' has no vertex shader
+The referenced script on this Behaviour (Game Object 'BookPro') is missing!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 294)
+
+The referenced script on this Behaviour (Game Object 'BookPro') is missing!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 294)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 2 worker threads for Enlighten.
+UnloadTime: 4.423018 ms
+  Thread -> id: 3c08 -> priority: 1 
+  Thread -> id: 7bc -> priority: 1 
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Mono/libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Mono/.\libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Mono/libc
+System.TypeInitializationException: An exception was thrown by the type initializer for Mono.CSharp.CSharpCodeCompiler ---> System.IO.FileNotFoundException: Windows mono path not found: D:\SteamLibrary\steamapps\mono\mono\mini\mono.exe
+  at Mono.CSharp.CSharpCodeCompiler..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Microsoft.CSharp.CSharpCodeProvider.CreateCompiler () [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 
+WARNING: Shader Unsupported: 'Custom/OreScannerShader' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/OreScannerColorShader' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/VegetationWave' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/3dPrinting' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/Translucent' - Pass 'Meta' has no vertex shader
+Version : 0.2.2066.9437
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.GameManager:Start() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\GameManager.cs:318)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/GameManager.cs Line: 318)
+
+Missing shader in Main Camera (UnityStandardAssets.ImageEffects.DepthOfField)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityStandardAssets.ImageEffects.PostEffectsBase:CheckShaderAndCreateMaterial(Shader, Material) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs:19)
+UnityStandardAssets.ImageEffects.DepthOfField:CheckResources() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs:59)
+UnityStandardAssets.ImageEffects.PostEffectsBase:Start() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs:89)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs Line: 19)
+
+System memory in use before: 0.69 GB.
+System memory in use after: 0.68 GB.
+
+Unloading 20407 unused Assets to reduce memory usage. Loaded Objects now: 214211.
+Total: 908.492611 ms (FindLiveObjects: 17.066305 ms CreateObjectMapping: 14.508716 ms MarkObjects: 857.490311 ms  DeleteObjects: 19.425996 ms)
+
+WARNING: Shader Unsupported: 'Custom/EarthGround' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/Clouds' - Pass 'Meta' has no vertex shader
+WARNING: Shader Unsupported: 'Custom/LightToAlpha' - Pass 'Meta' has no vertex shader
+Loaded Mod Data from D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/StreamingAssets/Data/
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadGameData>c__Iterator0:MoveNext() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\WorldManager\WorldManager.cs:911)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/WorldManager/WorldManager.cs Line: 911)
+
+Hosting 0 clients on port 27016
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Networking.NetworkManagerHudOverride:PrintPlayerCount() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerHudOverride.cs:830)
+Assets.Scripts.Networking.NetworkManagerHudOverride:StartAsHost() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerHudOverride.cs:814)
+Assets.Scripts.Networking.SteamServer:StartSteamServer(Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Steam\Matchmaking\SteamServer.cs:788)
+Assets.Scripts.Networking.SteamServer:SetupGameServer(Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Steam\Matchmaking\SteamServer.cs:639)
+Assets.Scripts.Serialization.<LoadWorld>c__Iterator8:MoveNext() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:2071)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Networking/NetworkManagerHudOverride.cs Line: 830)
+
+Server Started
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Networking.SteamServer:StartSteamServer(Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Steam\Matchmaking\SteamServer.cs:802)
+Assets.Scripts.Networking.SteamServer:SetupGameServer(Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Steam\Matchmaking\SteamServer.cs:639)
+Assets.Scripts.Serialization.<LoadWorld>c__Iterator8:MoveNext() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:2071)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Steam/Matchmaking/SteamServer.cs Line: 802)
+
+Loaded World Settings.  Elapsed: <1s ( + <1s) 
+Loaded 74781 Terrain Chunks in 00:50 (Elapsed: 00:50)
+Loaded 11 Networks in <1s (Elapsed: 00:50)
+Loaded 51 Rooms in <1s (Elapsed: 00:50)
+Loaded 920 Things in <1s (Elapsed: 00:51)
+Loaded 130 Atmospheres in <1s (Elapsed: 00:51)
+Initialized 65 Devices in <1s (Elapsed: 00:51)
+Loaded Mission Data in <1s (Elapsed: 00:51)
+Loaded StationContact Data in <1s (Elapsed: 00:51)
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Serialization.<LoadWorld>c__Iterator8:MoveNext() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:2539)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Serialization/XmlSaveLoad.cs Line: 2539)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Mono/libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Mono/.\libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Stationeers/rocketstation_Data/Mono/libc
+System memory in use before: 2.48 GB.
+System memory in use after: 2.50 GB.
+
+Unloading 20321 unused Assets to reduce memory usage. Loaded Objects now: 851936.
+Total: 2039.936737 ms (FindLiveObjects: 78.943005 ms CreateObjectMapping: 43.672086 ms MarkObjects: 1892.445942 ms  DeleteObjects: 24.874422 ms)
+
+StationeerServer is VAC Secure!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Networking.SteamServer:OnPolicyResponse(GSPolicyResponse_t) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Steam\Matchmaking\SteamServer.cs:928)
+Steamworks.Callback`1:OnRunCallback(IntPtr, IntPtr) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Plugins\Steamworks.NET\CallbackDispatcher.cs:140)
+Steamworks.NativeMethods:SteamGameServer_RunCallbacks()
+Steamworks.GameServer:RunCallbacks() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Plugins\Steamworks.NET\Steam.cs:148)
+Assets.Scripts.Networking.SteamServer:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Steam\Matchmaking\SteamServer.cs:845)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Steam/Matchmaking/SteamServer.cs Line: 928)
+
+Hosting 1 clients on port 27016
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Networking.NetworkManagerHudOverride:PrintPlayerCount() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerHudOverride.cs:830)
+Assets.Scripts.Networking.NetworkManagerOverride:HandlePlayerConnection(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:2710)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Networking/NetworkManagerHudOverride.cs Line: 830)
+
+Hosting 1 clients on port 27016
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Networking.NetworkManagerHudOverride:PrintPlayerCount() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerHudOverride.cs:830)
+Assets.Scripts.Networking.NetworkManagerOverride:HandlePlayerConnection(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:2710)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Networking/NetworkManagerHudOverride.cs Line: 830)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Allocator/ThreadsafeLinearAllocator.cpp Line: 388)
+
+To Debug, enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.cpp. This will output the callstacks of the leaked allocations
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Allocator/ThreadsafeLinearAllocator.cpp Line: 390)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.OnServer:MoveToSlot(DynamicThing, Slot) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\Server.cs:129)
+Assets.Scripts.Objects.Thing:CmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\Thing.cs:4964)
+Assets.Scripts.Objects.Thing:CallCmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32)
+Assets.Scripts.Inventory.InventoryManager:NormalMode() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:2755)
+Assets.Scripts.Inventory.InventoryManager:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:1819)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.OnServer:MoveToSlot(DynamicThing, Slot) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\Server.cs:129)
+Assets.Scripts.Objects.Thing:CmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\Thing.cs:4964)
+Assets.Scripts.Objects.Thing:CallCmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32)
+Assets.Scripts.Inventory.InventoryManager:NormalMode() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:2755)
+Assets.Scripts.Inventory.InventoryManager:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:1819)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.OnServer:MoveToSlot(DynamicThing, Slot) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\Server.cs:129)
+Assets.Scripts.Objects.Thing:CmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\Thing.cs:4964)
+Assets.Scripts.Objects.Thing:CallCmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32)
+Assets.Scripts.Inventory.InventoryManager:NormalMode() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:2755)
+Assets.Scripts.Inventory.InventoryManager:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:1819)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.OnServer:MoveToSlot(DynamicThing, Slot) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\Server.cs:129)
+Assets.Scripts.Objects.Thing:CmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\Thing.cs:4964)
+Assets.Scripts.Objects.Thing:CallCmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32)
+Assets.Scripts.Inventory.InventoryManager:NormalMode() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:2755)
+Assets.Scripts.Inventory.InventoryManager:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:1819)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.OnServer:MoveToSlot(DynamicThing, Slot) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\Server.cs:129)
+Assets.Scripts.Objects.Thing:CmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\Thing.cs:4964)
+Assets.Scripts.Objects.Thing:CallCmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32)
+Assets.Scripts.Inventory.InventoryManager:NormalMode() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:2755)
+Assets.Scripts.Inventory.InventoryManager:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:1819)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.SwapSlotsMessage:Process() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkMessageProcessor.cs:2141)
+Assets.Scripts.Networking.NetworkManagerOverride:HandleSwapSlots(NetworkMessage) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\NetworkManagerOverride.cs:3600)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:138)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:66)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:966)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+Kinematic body only supports Speculative Continuous collision detection
+UnityEngine.Rigidbody:set_isKinematic(Boolean)
+Assets.Scripts.Objects.DynamicThing:SetPhysics(Boolean, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1512)
+Assets.Scripts.Objects.DynamicThing:MoveToSlot(Slot, Thing, Boolean) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\DynamicThing.cs:1697)
+Assets.Scripts.Networking.OnServer:MoveToSlot(DynamicThing, Slot) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Networking\Server.cs:129)
+Assets.Scripts.Objects.Thing:CmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Objects\Thing.cs:4964)
+Assets.Scripts.Objects.Thing:CallCmdMoveToSlot(NetworkInstanceId, NetworkInstanceId, Int32)
+Assets.Scripts.Inventory.InventoryManager:NormalMode() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:2755)
+Assets.Scripts.Inventory.InventoryManager:Update() (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Inventory\InventoryManager.cs:1819)
+
+[C:\buildslave\unity\build\Runtime/Dynamics/Rigidbody.cpp line 730] 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Objects/DynamicThing.cs Line: 1512)
+
+IOException: Sharing violation on path C:\Users\Kynny\Documents\My Games\Stationeers\saves\Autosave 7_11_2019 9_49_46 PM\temp_world.bin
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00337] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs:354 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode)
+  at Assets.Scripts.Serialization.XmlSaveLoad.WriteWorld (System.String worldDirectory) [0x0010e] in C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1585 
+  at Assets.Scripts.Serialization.XmlSaveLoad.WriteWorldDataInThread (System.Object directory) [0x0008d] in C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1375 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.UnhandledExceptionHandler:<RegisterUECatcher>m__0(Object, UnhandledExceptionEventArgs)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs Line: 354)
+
+IOException: Sharing violation on path C:\Users\Kynny\Documents\My Games\Stationeers\saves\Autosave 7_11_2019 9_49_46 PM\temp_world.bin
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00337] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs:354 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode)
+  at Assets.Scripts.Serialization.XmlSaveLoad.WriteWorld (System.String worldDirectory) [0x0010e] in C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1585 
+  at Assets.Scripts.Serialization.XmlSaveLoad.WriteWorldDataInThread (System.Object directory) [0x0008d] in C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1375 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.UnhandledExceptionHandler:<RegisterUECatcher>m__0(Object, UnhandledExceptionEventArgs)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs Line: 354)
+
+IOException: Sharing violation on path C:\Users\Kynny\Documents\My Games\Stationeers\saves\Backup\temp_world.bin
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00337] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs:354 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode)
+  at Assets.Scripts.Serialization.XmlSaveLoad.WriteWorld (System.String worldDirectory) [0x0010e] in C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1585 
+  at Assets.Scripts.Serialization.XmlSaveLoad.WriteWorldDataInThread (System.Object directory) [0x0008d] in C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1375 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.UnhandledExceptionHandler:<RegisterUECatcher>m__0(Object, UnhandledExceptionEventArgs)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs Line: 354)
+
+Win32 IO returned 112. Path: C:/Users/Kynny/Documents/My Games/Stationeers/saves/Backup/world.bin" or "C:/Users/Kynny/Documents/My Games/Stationeers/saves/Backup/Backup/world(9).bin
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Assets.Scripts.Serialization.XmlSaveLoad:BackupWorldFiles(String) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1533)
+Assets.Scripts.Serialization.XmlSaveLoad:WriteWorld(String) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1677)
+Assets.Scripts.Serialization.XmlSaveLoad:WriteWorldDataInThread(Object) (at C:\Jenkins\jobs\Game_Client\workspace\Assets\Scripts\Serialization\XmlSaveLoad.cs:1375)
+ 
+(Filename: C:/Jenkins/jobs/Game_Client/workspace/Assets/Scripts/Serialization/XmlSaveLoad.cs Line: 1533)
+
